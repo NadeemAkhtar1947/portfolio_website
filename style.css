@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 27);
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(23, 23, 69);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+
+    color: rgb(18, 216, 68);
+    font-size: 1.32rem;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+.leftSection buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.buttons button{
+    margin: 0  3px;
+    padding: 9px 15px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons p{
+    margin: 5px  3px;
+    padding: 9px 15px;
+    border-radius: 16px;
+    font-size: 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    font-size: 2rem;
+}
+
+.rightSection img {
+    width: 70%;
+    margin: 15px 0;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+.text-gray{
+    color: gray;
+}
+#element {
+    color: rgb(170, 107, 228);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 60px;
+    width: 120px;
+    font-size: 15px;
+    color: rgb(18, 216, 68);
+    
+    
+}
+.vertical-title li a{
+
+    color: rgb(18, 216, 68);
+       
+}
+
+.vertical-title a:hover {
+    color: rgb(240, 132, 9);
+    font-size: 1.3rem;
+}    
+
+
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    color: rgb(255, 250, 250);
+    width: 150px;
+    font-size: 7px;
+}
+
+.container footer{
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+
+}
